@@ -38,7 +38,7 @@ function MountFilter({ onFilterChange, onSortChange }) {
         onChange={handleIdFilterChange}
       />
       <button onClick={handleSortChange}>
-        {sortDirection === "asc" ? "Sort Z-A" : "Sort A-Z"}
+        {sortDirection === "asc" ? "Orden Z-A" : "Orden A-Z"}
       </button>
     </div>
   );
